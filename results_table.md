@@ -13,6 +13,14 @@
 | 설정B naive (per_tensor/per_tensor) | 13.5711 | ok | 140 | +8.82% | 358.88 |
 | 설정B SmoothQuant a=0.5 | 12.5274 | ok | 140 | +0.45% | 358.82 |
 
+### opt-2.7b alpha sweep
+
+| 설정 | alpha | PPL | 상태 |
+|---|---|---|---|
+| A_smooth_a0.0 | 0.0 | 14.1413 | ok |
+| A_smooth_a0.5 | 0.5 | 12.4732 | ok |
+| B_smooth_a0.5 | 0.5 | 12.5274 | ok |
+
 ## opt-1.3b
 
 | 설정 | PPL | 상태 | n_samples | FP16 대비 변화(%) | 소요(s) |
