@@ -242,3 +242,17 @@ To https://github.com/yoohyunseok/smoothquant_results.git
    31ba2ac..6b367a8  HEAD -> main
 [sync] Sun Oct 11 04:09:07 PM UTC 2026 push 성공
 [sync] Sun Oct 11 04:19:55 PM UTC 2026 Drive sync 호출 완료
+[main 6768bf9] sync results 2026-10-11T16:19:55Z
+ 8 files changed, 1047 insertions(+)
+ create mode 100644 ARCHITECTURE.md
+ create mode 100644 scripts/gen_table.py
+ create mode 100644 scripts/my_ppl_eval.py
+ create mode 100644 scripts/plot_alpha.py
+ create mode 100755 scripts/run_all.sh
+ create mode 100755 scripts/setup.sh
+ create mode 100755 scripts/sync_results.sh
+[sync] Sun Oct 11 04:19:55 PM UTC 2026 commit 생성
+To https://github.com/yoohyunseok/smoothquant_results.git
+   5107037..6768bf9  HEAD -> main
+[sync] Sun Oct 11 04:19:56 PM UTC 2026 push 성공
+[sync] Sun Oct 11 04:36:28 PM UTC 2026 Drive sync 호출 완료
