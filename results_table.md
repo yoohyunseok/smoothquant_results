@@ -20,7 +20,7 @@
 | FP16 기준 | 14.6238 | ok | 140 | +0.00% | 129.11 |
 | 설정A naive (per_channel/per_token) | 15.1752 | ok | 140 | +3.77% | 196.54 |
 | 설정A SmoothQuant a=0.5 | 14.7908 | ok | 140 | +1.14% | 197.92 |
-| 설정B naive (per_tensor/per_tensor) | - | 미실행 | - | - | - |
+| 설정B naive (per_tensor/per_tensor) | 15.8446 | ok | 140 | +8.35% | 192.72 |
 | 설정B SmoothQuant a=0.5 | - | 미실행 | - | - | - |
 
 ## opt-125m
