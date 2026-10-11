@@ -234,3 +234,11 @@ To https://github.com/yoohyunseok/smoothquant_results.git
    d977def..31ba2ac  HEAD -> main
 [sync] Sun Oct 11 04:06:52 PM UTC 2026 push 성공
 [sync] Sun Oct 11 04:09:05 PM UTC 2026 Drive sync 호출 완료
+[main 6b367a8] sync results 2026-10-11T16:09:05Z
+ 5 files changed, 219 insertions(+), 2 deletions(-)
+ create mode 100644 RESULTS_COLAB.md
+[sync] Sun Oct 11 04:09:05 PM UTC 2026 commit 생성
+To https://github.com/yoohyunseok/smoothquant_results.git
+   31ba2ac..6b367a8  HEAD -> main
+[sync] Sun Oct 11 04:09:07 PM UTC 2026 push 성공
+[sync] Sun Oct 11 04:19:55 PM UTC 2026 Drive sync 호출 완료
