@@ -20,3 +20,10 @@
 [sync] Sun Oct 11 02:48:46 PM UTC 2026 push 성공
 [run_all] 2026-10-11T14:48:46Z START: opt-2.7b_fp16_B_smooth_a0.5
 [run_all] 2026-10-11T14:54:57Z DONE: opt-2.7b_fp16_B_smooth_a0.5 (EVAL_META tag=opt-2.7b_fp16_B_smooth_a0.5 status=ok ppl=12.527389526367188 n_used=140 n_total=140 load_sec=45.01 eval_sec=195.74)
+[sync] Sun Oct 11 02:54:59 PM UTC 2026 push 성공
+[run_all] 2026-10-11T14:54:59Z ==== opt-2.7b 종료 ====
+[run_all] 2026-10-11T14:55:01Z ==== opt-1.3b 시작 ====
+[run_all] 2026-10-11T14:55:01Z PROBE START: opt-1.3b (n_samples=2 로 속도 측정)
+[run_all] 2026-10-11T14:56:08Z opt-1.3b: n_samples=140 사용
+[run_all] 2026-10-11T14:56:09Z START: opt-1.3b_fp16_fp
+[run_all] 2026-10-11T14:58:26Z DONE: opt-1.3b_fp16_fp (EVAL_META tag=opt-1.3b_fp16_fp status=ok ppl=14.623831748962402 n_used=140 n_total=140 load_sec=6.06 eval_sec=112.75)
