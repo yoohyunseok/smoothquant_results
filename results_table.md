@@ -21,6 +21,7 @@
 | A_smooth_a0.25 | 0.25 | 12.6293 | ok |
 | A_smooth_a0.5 | 0.5 | 12.4732 | ok |
 | A_smooth_a0.75 | 0.75 | 12.4939 | ok |
+| A_smooth_a1.0 | 1.0 | 12.4940 | ok |
 | B_smooth_a0.0 | 0.0 | 15.5587 | ok |
 | B_smooth_a0.25 | 0.25 | 12.7525 | ok |
 | B_smooth_a0.5 | 0.5 | 12.5274 | ok |
