@@ -31,7 +31,7 @@
 | 설정A naive (per_channel/per_token) | 27.9299 | ok | 140 | +0.99% | 37.83 |
 | 설정A SmoothQuant a=0.5 | 27.7448 | ok | 140 | +0.32% | 36.7 |
 | 설정B naive (per_tensor/per_tensor) | 30.5334 | ok | 140 | +10.40% | 37.84 |
-| 설정B SmoothQuant a=0.5 | - | 미실행 | - | - | - |
+| 설정B SmoothQuant a=0.5 | 29.4690 | ok | 140 | +6.55% | 37.08 |
 
 ## 모델 크기별 naive 열화 추세 (설정A 기준)
 
