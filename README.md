@@ -11,6 +11,8 @@ SmoothQuant 논문(Xiao et al., ICML 2023)의 실험을 공식 코드([mit-han-l
 - **[`results/results.jsonl`](results/results.jsonl)** — 원본 수치 데이터 (설정 하나당 한 줄)
 - **[`alpha_vs_ppl_opt-2.7b.png`](alpha_vs_ppl_opt-2.7b.png)** — alpha sweep 그래프
 - **[`SETUP_LOG_COLAB.md`](SETUP_LOG_COLAB.md)** — 설치/실행 기록 (환경, 패키지 버전, 만난 에러와 해결 방법, 재현 방법)
+- **[`ARCHITECTURE.md`](ARCHITECTURE.md)** — 저장소 구조와 각 스크립트/파일의 역할 설명
+- **[`scripts/`](scripts)** — 실제로 실행한 스크립트 원본 (`setup.sh`, `run_all.sh`, `my_ppl_eval.py` 등, 재현용)
 - **`logs/`** — 전체 실행 로그
 
 커밋 이력은 설정 하나가 끝날 때마다 자동으로 쌓인 것이라, 실험이 어떤 순서로 진행됐는지도 git log로 추적할 수 있습니다.
