@@ -219,3 +219,11 @@ To https://github.com/yoohyunseok/smoothquant_results.git
    1a7a551..f09a3c4  HEAD -> main
 [sync] Sun Oct 11 04:06:47 PM UTC 2026 push 성공
 [sync] Sun Oct 11 04:06:49 PM UTC 2026 Drive sync 호출 완료
+[main d977def] sync results 2026-10-11T16:06:49Z
+ 3 files changed, 18 insertions(+)
+ create mode 100644 alpha_vs_ppl_opt-2.7b.png
+[sync] Sun Oct 11 04:06:49 PM UTC 2026 commit 생성
+To https://github.com/yoohyunseok/smoothquant_results.git
+   f09a3c4..d977def  HEAD -> main
+[sync] Sun Oct 11 04:06:50 PM UTC 2026 push 성공
+[sync] Sun Oct 11 04:06:50 PM UTC 2026 Drive sync 호출 완료
