@@ -80,3 +80,6 @@
 [run_all] 2026-10-11T15:41:57Z SKIP (이미 성공 기록 있음): opt-2.7b_fp16_B_smooth_a0.5
 [run_all] 2026-10-11T15:41:57Z START: opt-2.7b_fp16_A_smooth_a0.75
 [run_all] 2026-10-11T15:48:05Z DONE: opt-2.7b_fp16_A_smooth_a0.75 (EVAL_META tag=opt-2.7b_fp16_A_smooth_a0.75 status=ok ppl=12.493880271911621 n_used=140 n_total=140 load_sec=46.31 eval_sec=198.31)
+[sync] Sun Oct 11 03:48:06 PM UTC 2026 push 성공
+[run_all] 2026-10-11T15:48:07Z START: opt-2.7b_fp16_B_smooth_a0.75
+[run_all] 2026-10-11T15:54:15Z DONE: opt-2.7b_fp16_B_smooth_a0.75 (EVAL_META tag=opt-2.7b_fp16_B_smooth_a0.75 status=ok ppl=12.555933952331543 n_used=140 n_total=140 load_sec=46.50 eval_sec=194.40)
