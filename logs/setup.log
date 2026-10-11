@@ -1,0 +1,62 @@
+[setup] Sun Oct 11 02:10:32 PM UTC 2026 시작
+[setup] transformers==4.36.0 / tokenizers==0.15.2 / huggingface_hub==0.23.4 설치
+Requirement already satisfied: transformers==4.36.0 in /usr/local/lib/python3.13/dist-packages (4.36.0)
+Requirement already satisfied: tokenizers==0.15.2 in /usr/local/lib/python3.13/dist-packages (0.15.2)
+Requirement already satisfied: huggingface_hub==0.23.4 in /usr/local/lib/python3.13/dist-packages (0.23.4)
+[setup] 나머지 의존 패키지 확인/설치 (버전 고정 없이 - 이미 있으면 스킵됨)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 2.7 MB/s eta 0:00:00
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tokenizers 0.15.2 requires huggingface_hub<1.0,>=0.16.4, but you have huggingface-hub 1.33.0 which is incompatible.
+transformers 4.36.0 requires huggingface-hub<1.0,>=0.19.3, but you have huggingface-hub 1.33.0 which is incompatible.
+sentence-transformers 5.7.0 requires tokenizers>=0.19, but you have tokenizers 0.15.2 which is incompatible.
+sentence-transformers 5.7.0 requires transformers<6.0.0,>=4.41.0, but you have transformers 4.36.0 which is incompatible.
+[setup] /content/repo 이미 존재, clone 생략
+Obtaining file:///content/repo
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Installing collected packages: smoothquant
+  Attempting uninstall: smoothquant
+    Found existing installation: smoothquant 0.0.0
+    Uninstalling smoothquant-0.0.0:
+      Successfully uninstalled smoothquant-0.0.0
+  Running setup.py develop for smoothquant
+Successfully installed smoothquant-0.0.0
+[setup] 결과 저장소 clone -> /content/results_repo
+Cloning into '/content/results_repo'...
+[setup] 패키지 버전 기록 -> /content/drive/MyDrive/smoothquant_vlm/logs/package_versions.txt
+[setup] Sun Oct 11 02:11:22 PM UTC 2026 완료
+[setup] Sun Oct 11 02:12:18 PM UTC 2026 시작
+[setup] transformers==4.36.0 / tokenizers==0.15.2 / huggingface_hub==0.23.4 설치
+Requirement already satisfied: transformers==4.36.0 in /usr/local/lib/python3.13/dist-packages (4.36.0)
+Requirement already satisfied: tokenizers==0.15.2 in /usr/local/lib/python3.13/dist-packages (0.15.2)
+Requirement already satisfied: huggingface_hub==0.23.4 in /usr/local/lib/python3.13/dist-packages (0.23.4)
+[setup] 나머지 의존 패키지 확인/설치 (버전 고정 없이 - 이미 있으면 스킵됨)
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tokenizers 0.15.2 requires huggingface_hub<1.0,>=0.16.4, but you have huggingface-hub 1.33.0 which is incompatible.
+transformers 4.36.0 requires huggingface-hub<1.0,>=0.19.3, but you have huggingface-hub 1.33.0 which is incompatible.
+sentence-transformers 5.7.0 requires tokenizers>=0.19, but you have tokenizers 0.15.2 which is incompatible.
+sentence-transformers 5.7.0 requires transformers<6.0.0,>=4.41.0, but you have transformers 4.36.0 which is incompatible.
+[setup] huggingface_hub 를 0.23.4로 재고정 (datasets가 1.x로 끌어올리는 것을 방지)
+Collecting huggingface_hub==0.23.4
+  Using cached huggingface_hub-0.23.4-py3-none-any.whl.metadata (12 kB)
+Using cached huggingface_hub-0.23.4-py3-none-any.whl (402 kB)
+Installing collected packages: huggingface_hub
+  Attempting uninstall: huggingface_hub
+    Found existing installation: huggingface_hub 1.33.0
+    Uninstalling huggingface_hub-1.33.0:
+      Successfully uninstalled huggingface_hub-1.33.0
+Successfully installed huggingface_hub-0.23.4
+[setup] /content/repo 이미 존재, clone 생략
+Obtaining file:///content/repo
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Installing collected packages: smoothquant
+  Attempting uninstall: smoothquant
+    Found existing installation: smoothquant 0.0.0
+    Uninstalling smoothquant-0.0.0:
+      Successfully uninstalled smoothquant-0.0.0
+  Running setup.py develop for smoothquant
+Successfully installed smoothquant-0.0.0
+[setup] /content/results_repo 이미 존재, clone 생략
+[setup] 패키지 버전 기록 -> /content/drive/MyDrive/smoothquant_vlm/logs/package_versions.txt
+[setup] Sun Oct 11 02:13:15 PM UTC 2026 완료
