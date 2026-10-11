@@ -8,7 +8,7 @@
 | 설정 | PPL | 상태 | n_samples | FP16 대비 변화(%) | 소요(s) |
 |---|---|---|---|---|---|
 | FP16 기준 | 12.4709 | ok | 140 | +0.00% | 228.77 |
-| 설정A naive (per_channel/per_token) | - | 미실행 | - | - | - |
+| 설정A naive (per_channel/per_token) | 13.0160 | ok | 140 | +4.37% | 363.74 |
 | 설정A SmoothQuant a=0.5 | - | 미실행 | - | - | - |
 | 설정B naive (per_tensor/per_tensor) | - | 미실행 | - | - | - |
 | 설정B SmoothQuant a=0.5 | - | 미실행 | - | - | - |
@@ -22,3 +22,9 @@
 | 설정A SmoothQuant a=0.5 | - | 미실행 | - | - | - |
 | 설정B naive (per_tensor/per_tensor) | - | 미실행 | - | - | - |
 | 설정B SmoothQuant a=0.5 | - | 미실행 | - | - | - |
+
+## 모델 크기별 naive 열화 추세 (설정A 기준)
+
+| model | 설정 | PPL | FP16 PPL | 변화(%) |
+|---|---|---|---|---|
+| opt-2.7b | A_naive | 13.0160 | 12.4709 | +4.37% |

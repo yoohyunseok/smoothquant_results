@@ -8,3 +8,6 @@
 [run_all] 2026-10-11T14:25:56Z opt-2.7b: n_samples=140 사용
 [run_all] 2026-10-11T14:25:56Z START: opt-2.7b_fp16_fp
 [run_all] 2026-10-11T14:29:58Z DONE: opt-2.7b_fp16_fp (EVAL_META tag=opt-2.7b_fp16_fp status=ok ppl=12.470909118652344 n_used=140 n_total=140 load_sec=45.01 eval_sec=173.61)
+[sync] Sun Oct 11 02:30:00 PM UTC 2026 push 성공
+[run_all] 2026-10-11T14:30:00Z START: opt-2.7b_fp16_A_naive
+[run_all] 2026-10-11T14:36:15Z DONE: opt-2.7b_fp16_A_naive (EVAL_META tag=opt-2.7b_fp16_A_naive status=ok ppl=13.015993118286133 n_used=140 n_total=140 load_sec=44.98 eval_sec=199.82)
