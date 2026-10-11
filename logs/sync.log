@@ -47,3 +47,11 @@ To https://github.com/yoohyunseok/smoothquant_results.git
    e417b9f..b127893  HEAD -> main
 [sync] Sun Oct 11 02:36:17 PM UTC 2026 push 성공
 [sync] Sun Oct 11 02:42:33 PM UTC 2026 Drive sync 호출 완료
+[main 9f15092] sync results 2026-10-11T14:42:33Z
+ 5 files changed, 26 insertions(+), 1 deletion(-)
+ create mode 100644 logs/opt-2.7b_fp16_A_smooth_a0.5.log
+[sync] Sun Oct 11 02:42:33 PM UTC 2026 commit 생성
+To https://github.com/yoohyunseok/smoothquant_results.git
+   b127893..9f15092  HEAD -> main
+[sync] Sun Oct 11 02:42:34 PM UTC 2026 push 성공
+[sync] Sun Oct 11 02:48:44 PM UTC 2026 Drive sync 호출 완료
