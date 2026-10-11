@@ -39,3 +39,12 @@
 [sync] Sun Oct 11 03:08:42 PM UTC 2026 push 성공
 [run_all] 2026-10-11T15:08:42Z START: opt-1.3b_fp16_B_smooth_a0.5
 [run_all] 2026-10-11T15:12:01Z DONE: opt-1.3b_fp16_B_smooth_a0.5 (EVAL_META tag=opt-1.3b_fp16_B_smooth_a0.5 status=ok ppl=15.004833221435547 n_used=140 n_total=140 load_sec=5.14 eval_sec=126.61)
+[sync] Sun Oct 11 03:12:03 PM UTC 2026 push 성공
+[run_all] 2026-10-11T15:12:03Z ==== opt-1.3b 종료 ====
+[run_all] 2026-10-11T15:12:03Z Pile val 다운로드 시도 (mit-han-lab/pile-val-backup)
+[run_all] 2026-10-11T15:12:11Z opt-125m activation scale 생성 중 (generate_act_scales.py)
+[run_all] 2026-10-11T15:13:13Z ==== opt-125m 시작 ====
+[run_all] 2026-10-11T15:13:13Z PROBE START: opt-125m (n_samples=2 로 속도 측정)
+[run_all] 2026-10-11T15:13:31Z opt-125m: n_samples=140 사용
+[run_all] 2026-10-11T15:13:31Z START: opt-125m_fp16_fp
+[run_all] 2026-10-11T15:14:08Z DONE: opt-125m_fp16_fp (EVAL_META tag=opt-125m_fp16_fp status=ok ppl=27.656307220458984 n_used=140 n_total=140 load_sec=1.12 eval_sec=19.86)

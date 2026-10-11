@@ -27,7 +27,7 @@
 
 | 설정 | PPL | 상태 | n_samples | FP16 대비 변화(%) | 소요(s) |
 |---|---|---|---|---|---|
-| FP16 기준 | - | 미실행 | - | - | - |
+| FP16 기준 | 27.6563 | ok | 140 | +0.00% | 31.07 |
 | 설정A naive (per_channel/per_token) | - | 미실행 | - | - | - |
 | 설정A SmoothQuant a=0.5 | - | 미실행 | - | - | - |
 | 설정B naive (per_tensor/per_tensor) | - | 미실행 | - | - | - |
