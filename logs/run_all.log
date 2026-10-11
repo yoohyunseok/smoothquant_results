@@ -1,0 +1,7 @@
+[run_all] 2026-10-11T14:15:18Z 파이프라인 검증: opt-125m FP16 전체 WikiText-2 test PPL
+[run_all] 2026-10-11T14:15:18Z SKIP (이미 성공 기록 있음): opt-125m_fp16_fp_fullcheck
+[run_all] 2026-10-11T14:15:20Z ==== opt-6.7b 시작 ====
+[run_all] 2026-10-11T14:15:20Z PROBE START: opt-6.7b (n_samples=2 로 속도 측정)
+[run_all] 2026-10-11T14:23:41Z opt-6.7b: 프로브 실패로 전체 설정을 건너뜁니다 (OOM 등 - decisions.log 참고)
+[run_all] 2026-10-11T14:23:47Z ==== opt-2.7b 시작 ====
+[run_all] 2026-10-11T14:23:47Z PROBE START: opt-2.7b (n_samples=2 로 속도 측정)

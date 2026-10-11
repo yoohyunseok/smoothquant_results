@@ -100,5 +100,21 @@ huggingface_hub 조합은 동일하게 맞췄다.
 opt-125m 기준 140윈도우에 45초가 채 안 걸렸으므로, 더 큰 모델도 대부분 전체 test셋을
 그대로 사용할 수 있을 것으로 예상했고, 실제 결정 내역은 `logs/decisions.log` 참고.
 
+## opt-6.7b OOM (2026-10-11 14:23 UTC)
+프로브(n_samples=2)에서 OOM 발생, 그 즉시 opt-6.7b 전체 설정을 건너뛰고 opt-2.7b로 진행함.
+```
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB.
+GPU 0 has a total capacity of 14.56 GiB of which 383.81 MiB is free.
+Including non-PyTorch memory, this process has 14.19 GiB memory in use.
+Of the allocated memory 13.31 GiB is allocated by PyTorch, ...
+```
+- 모델 가중치 로드만으로 13.31GiB를 이미 사용 (FP16 6.7B 파라미터 ≈ 13.4GB 추정과 일치).
+- OOM은 attention softmax 계산 중(`nn.functional.softmax(attn_weights, ..., dtype=torch.float32)`)
+  512MiB를 추가로 요청하다 실패한 것 — 즉 **윈도우 수(n_samples)를 줄여도 해결되지 않는 종류의
+  OOM**이다(단 1개 윈도우짜리 forward 한 번만으로도 실패). 2048 토큰 윈도우 평가 로직은
+  과제 지침에 따라 변경하지 않았으므로, 이 조합(T4 15GB + opt-6.7b + 2048 윈도우 FP16 평가)은
+  현재 런타임에서는 구조적으로 불가능하다고 판단하고 opt-6.7b는 전체 건너뜀.
+- **결론: opt-6.7b 실험을 돌리려면 더 큰 VRAM의 GPU 런타임(A100 40GB/L4 24GB 등)이 필요함.**
+
 ## 아직 남은 실험/이슈
 (런타임이 끊기면 이 섹션을 이어서 갱신할 것)

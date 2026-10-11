@@ -1,0 +1,78 @@
+/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [04:49<04:49, 289.39s/it]Error while downloading from https://us.gcp.cdn.hf.co/xet-bridge-us/627b734c7a5a8a708ffca072/48ad664970f1408fb0847b46340824470c12acb3c28232abb328421b88dfb5ad?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model-00002-of-00002.bin%3B+filename%3D%22pytorch_model-00002-of-00002.bin%22%3B&user_id=public&response-content-type=application%2Foctet-stream&xip=zHsES8HWVkw&Expires=1791732031&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5nY3AuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjI3YjczNGM3YTVhOGE3MDhmZmNhMDcyLzQ4YWQ2NjQ5NzBmMTQwOGZiMDg0N2I0NjM0MDgyNDQ3MGMxMmFjYjNjMjgyMzJhYmIzMjg0MjFiODhkZmI1YWRcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomdXNlcl9pZD1wdWJsaWMmcmVzcG9uc2UtY29udGVudC10eXBlPSomeGlwPXpIc0VTOEhXVmt3IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTE3MzIwMzF9fX1dfQ__&Signature=MEYCIQCcoVJDliweQ6DAdQzaJ1j9zqnViePhUbJ1GVhnsemEggIhAOgdUpo9c3N%7EiBv8NqeNAIt0NcKiHBztppL%7E2Ykbzc75&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256: HTTPSConnectionPool(host='us.gcp.cdn.hf.co', port=443): Read timed out.
+Trying to resume download...
+Downloading shards: 100%|██████████| 2/2 [06:45<00:00, 187.46s/it]Downloading shards: 100%|██████████| 2/2 [06:45<00:00, 202.75s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:44<00:44, 44.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:00<00:00, 27.76s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:00<00:00, 30.21s/it]
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Evaluating...:   0%|          | 0/2 [00:00<?, ?it/s]Evaluating...:   0%|          | 0/2 [00:01<?, ?it/s]
+EVAL_META tag=opt-6.7b_probe_n2 status=oom error=CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 383.81 MiB is free. Including non-PyTorch memory, this process has 14.19 GiB memory in use. Of the allocated memory 13.31 GiB is allocated by PyTorch, and 764.64 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/smoothquant_vlm/my_ppl_eval.py", line 193, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/smoothquant_vlm/my_ppl_eval.py", line 140, in main
+    ppl, n_used = evaluator.evaluate(model)
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/smoothquant_vlm/my_ppl_eval.py", line 77, in evaluate
+    lm_logits = model(batch).logits
+                ~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/opt/modeling_opt.py", line 1143, in forward
+    outputs = self.model.decoder(
+        input_ids=input_ids,
+    ...<7 lines>...
+        return_dict=return_dict,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/opt/modeling_opt.py", line 909, in forward
+    layer_outputs = decoder_layer(
+        hidden_states,
+    ...<4 lines>...
+        use_cache=use_cache,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/opt/modeling_opt.py", line 550, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+                                                          ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        output_attentions=output_attentions,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/opt/modeling_opt.py", line 240, in forward
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(torch.float16)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/functional.py", line 2161, in softmax
+    ret = input.softmax(dim, dtype=dtype)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 383.81 MiB is free. Including non-PyTorch memory, this process has 14.19 GiB memory in use. Of the allocated memory 13.31 GiB is allocated by PyTorch, and 764.64 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
