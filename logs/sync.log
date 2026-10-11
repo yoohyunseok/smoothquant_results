@@ -112,3 +112,14 @@ To https://github.com/yoohyunseok/smoothquant_results.git
    bb943c3..1a19614  HEAD -> main
 [sync] Sun Oct 11 03:12:03 PM UTC 2026 push 성공
 [sync] Sun Oct 11 03:14:08 PM UTC 2026 Drive sync 호출 완료
+[main a7d4236] sync results 2026-10-11T15:14:08Z
+ 9 files changed, 57 insertions(+), 1 deletion(-)
+ create mode 100644 logs/gen_act_scales_125m.log
+ create mode 100644 logs/opt-125m_fp16_fp.log
+ create mode 100644 logs/opt-125m_probe_n2.log
+ create mode 100644 logs/pile_download.log
+[sync] Sun Oct 11 03:14:08 PM UTC 2026 commit 생성
+To https://github.com/yoohyunseok/smoothquant_results.git
+   1a19614..a7d4236  HEAD -> main
+[sync] Sun Oct 11 03:14:10 PM UTC 2026 push 성공
+[sync] Sun Oct 11 03:14:57 PM UTC 2026 Drive sync 호출 완료
