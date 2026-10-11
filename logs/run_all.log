@@ -51,3 +51,6 @@
 [sync] Sun Oct 11 03:14:10 PM UTC 2026 push 성공
 [run_all] 2026-10-11T15:14:10Z START: opt-125m_fp16_A_naive
 [run_all] 2026-10-11T15:14:57Z DONE: opt-125m_fp16_A_naive (EVAL_META tag=opt-125m_fp16_A_naive status=ok ppl=27.929948806762695 n_used=140 n_total=140 load_sec=1.26 eval_sec=22.46)
+[sync] Sun Oct 11 03:14:58 PM UTC 2026 push 성공
+[run_all] 2026-10-11T15:14:58Z START: opt-125m_fp16_A_smooth_a0.5
+[run_all] 2026-10-11T15:15:41Z DONE: opt-125m_fp16_A_smooth_a0.5 (EVAL_META tag=opt-125m_fp16_A_smooth_a0.5 status=ok ppl=27.74482536315918 n_used=140 n_total=140 load_sec=1.08 eval_sec=22.28)
