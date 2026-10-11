@@ -89,3 +89,13 @@
 [sync] Sun Oct 11 04:00:33 PM UTC 2026 push 성공
 [run_all] 2026-10-11T16:00:34Z START: opt-2.7b_fp16_B_smooth_a1.0
 [run_all] 2026-10-11T16:06:45Z DONE: opt-2.7b_fp16_B_smooth_a1.0 (EVAL_META tag=opt-2.7b_fp16_B_smooth_a1.0 status=ok ppl=16.46953773498535 n_used=140 n_total=140 load_sec=46.14 eval_sec=195.63)
+[sync] Sun Oct 11 04:06:47 PM UTC 2026 push 성공
+/content/drive/MyDrive/smoothquant_vlm/plot_alpha.py:50: UserWarning: Glyph 49444 (\N{HANGUL SYLLABLE SEOL}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/content/drive/MyDrive/smoothquant_vlm/plot_alpha.py:50: UserWarning: Glyph 51221 (\N{HANGUL SYLLABLE JEONG}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/content/drive/MyDrive/smoothquant_vlm/plot_alpha.py:51: UserWarning: Glyph 49444 (\N{HANGUL SYLLABLE SEOL}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path, dpi=150)
+/content/drive/MyDrive/smoothquant_vlm/plot_alpha.py:51: UserWarning: Glyph 51221 (\N{HANGUL SYLLABLE JEONG}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path, dpi=150)
+저장됨: /content/drive/MyDrive/smoothquant_vlm/alpha_vs_ppl_opt-2.7b.png
